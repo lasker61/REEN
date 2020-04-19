@@ -1,0 +1,446 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a,a:hover{
+	text-decoration: none;
+}
+
+/************
+***header****
+************/
+
+.header-section{
+	width: 100%;
+
+}
+.header-section .top-header{
+	width: 100%;
+	background:#f5f7fa;
+	padding:15px 0px 5px 0px;
+	border-bottom: 1px solid #e6e9ed;
+	
+}
+
+.header-section .top-header .details{
+	padding-left: 15px;
+}
+.header-section .top-header .details a{
+	font-size: 13px;
+	color: #506a85;
+
+	
+}
+.header-section .top-header .details a i{
+	margin-right: 8px;
+	
+	
+}
+.header-section .top-header .social-icons {
+	width: 100%;
+	padding-right: 15px;
+}
+.header-section .top-header .social-icons a{
+	font-size: 15px;
+	color: #506a85;	
+	margin-left: 15px;
+}
+.header-section .top-header .social-icons a :hover{
+	color: #54CAB1;
+	transition: 1s;
+	
+}
+.header-section .main-manu{
+	padding: 15px 0px;
+}
+.fa-search{
+	color:  #506a85;
+}
+.form-control{
+	border: none;
+}
+
+.header-section .navbar-light .navbar-brand {
+    color: rgba(0,0,0,.9);
+    margin-right: 60px;
+}
+.header-section .navbar-light .navbar-nav .nav-link {
+    color:  #506a85;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 0px 14px;
+    font-size: 14px;
+}
+ .header-section .navbar-light .navbar-nav .nav-link:hover{
+    color: #54CAB1;
+	transition: 1s;
+}
+.header-section .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #506a85;
+}
+
+
+/*************
+****banner***
+*************/
+.banner-section{
+	width: 100%;
+	
+}
+.banner-section .banner-inner{
+	width: 100%;
+
+}
+.banner-section .container-fluid{
+	padding: 0PX;
+}
+.banner-section .carousel-caption{
+	bottom: 30%;
+}
+.banner-section .banner-inner h1{
+	font-size: 65px;
+	font-weight: 400;
+	line-height: 80px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	padding-right: 20px;
+
+}
+.banner-section .banner-inner p{
+	color: #a3b1bf;
+	font-size: 20px;
+	padding-bottom: 30px;
+
+}
+.banner-section .btn-info{
+	background: #00bc9c;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	padding: 15px 40px;
+}
+.banner-section .btn-info:hover{
+	background: transparent;
+	transition: 0.5s;
+	
+}
+
+/*************
+****feature***
+*************/
+.feature-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.feature-section .top-feature{
+	width: 100%;
+	padding-bottom: 40px;
+}
+.feature-section .top-feature h2{
+	color: #506a85;
+	padding-bottom: 15px;
+}
+.feature-section .top-feature p{
+	color: #506a85;
+	font-size: 17px;
+}
+.media-body  h5 {
+    font-size: 1.25rem;
+    color: #506a85;
+}
+.media-body{
+	 color: #506a85;
+	 font-size: 15px;
+	 line-height: 25px;
+}
+/******************
+****recent-works****
+*******************/
+.recent-works{
+	width: 100%;
+	padding: 80px 0px;
+	background: #f2f5f7;
+}
+.recent-works .works-header h2{
+	color: #506a85;
+	padding-bottom: 15px;
+	font-weight: 400;
+}
+.recent-works .works-header p{
+	color: #506a85;
+	font-size: 16px;
+	padding-bottom: 40px;
+}
+.left{
+	padding-left: 0px;
+}
+.right{
+	padding-right: 0px;
+}
+.recent-works .card h5{
+	color:  #506a85;
+	font-size: 18px;
+}
+.recent-works .card p{
+	color:  #506a85;
+	font-size: 13px;
+}
+
+.no-js .owl-carousel, .owl-carousel.owl-loaded {
+    display: block;
+    padding-top: 50px;
+
+}
+
+/******************
+****work with us****
+*******************/
+
+.work-with-us{
+	width: 100%;
+	padding: 80px 0px;
+}
+.work-with-us .work-in h2{
+	color: #506a85;
+	padding-bottom: 15px;
+	font-weight: 600;
+}
+.work-with-us .work-in p{
+	color: #506a85;
+	padding-bottom: 15px;
+	
+}
+.work-with-us .work-in .btn-info{
+	background: #00bc9c;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #fff;
+	padding: 15px 35px;
+
+}
+
+/******************
+******footer********
+*******************/
+
+.footer-section{
+	width: 100%;
+	padding: 60px 0px;
+	background: #2f4052;
+}
+.footer-section .who h6{
+	color: #fff;
+	padding-bottom: 15px;
+
+}
+.footer-section .who img{
+	padding-bottom: 15px;
+}
+.footer-section .who p{
+	color:  #a3b1bf;
+	font-size: 13px;
+	line-height: 22px;
+
+}
+.footer-section .who a{
+	color:  #a3b1bf;
+	font-size: 16px;
+}
+.footer-section .who .fa-arrow-right{
+	margin-left: 12px;
+}
+
+.footer-section .latest-works h6{
+	color: #fff;
+	padding-bottom: 15px;
+}
+.footer-section .get-in-touch h6{
+	color: #fff;
+	padding-bottom: 7px;
+}
+.footer-section .get-in-touch p{
+	color:  #a3b1bf;
+	font-size: 13px;
+	line-height: 22px;
+}
+.footer-section .get-in-touch h5{
+	color:  #a3b1bf;
+	font-size: 14px;
+	
+}
+.footer-section .free-updates{
+	
+}
+
+.footer-section .free-updates h6{
+	color: #fff;
+	padding-bottom: 7px;
+}
+.footer-section .free-updates p{
+	color:  #a3b1bf;
+	font-size: 13px;
+	line-height: 22px;
+	padding-bottom: 10px;
+}
+.footer-section .free-updates input{
+	width: 99%;
+	background: #4e5c6c;
+	border:none;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 90px;
+	border-radius: 5px;
+	font-size: 12px;
+	margin-right: -87px;
+
+
+
+}
+.footer-section .free-updates .btn-info{
+	background: #00bc9c;
+	font-size: 11px;
+	border-radius: 5px;
+
+}
+
+/**********************
+****footer-last********
+***********************/
+
+.footer-last{
+	width: 100%;
+	background: #283645;
+	padding: 20px 0px;
+}
+.footer-last p{
+	padding-top: 20px;
+	color: #707e8c;
+}
+.footer-last .navbar-light .navbar-nav .nav-link {
+   color: #707e8c;
+   font-size: 14px;
+   font-weight: 600;
+}
+.footer-last .navbar-light .navbar-nav .nav-link:hover{
+   color: #54CAB1;
+   transition: 1s;
+   
+}
+
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ .header-section .top-header .details a{
+	font-size: 10px;
+	color: #506a85;
+  
+}
+
+.header-section .top-header .social-icons a{
+	font-size: 12px;
+	color: #506a85;	
+	margin-left: 5px;
+	text-align: left;
+}
+.banner-section .banner-inner h1{
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 60px;
+	color: #fff;
+	
+
+}
+.feature-section .feature-inner{
+	padding-bottom: 20px;
+}
+.feature-section .feature-inner p{
+	color: #506a85;
+	font-size: 15px;
+}
+.feature-section .top-feature p {
+    color: #506a85;
+    font-size: 17px;
+    padding: 0px 30px;
+}
+.feature-section .pad{
+	padding-left: 12px;
+}
+.footer-section .who{
+	padding-bottom: 30px;
+}
+.footer-section .latest-works{
+	padding-bottom: 30px;
+}
+.footer-section .get-in-touch{
+	padding-bottom: 30px;
+}
+.banner-section .banner-inner p {
+    color: #a3b1bf;
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding: 21px 36px;
+}
+.recent-works .works-header h2 {
+    color: #506a85;
+    padding-bottom: 15px;
+    font-weight: 400;
+    padding: 15px 15px;
+}
+.recent-works .works-header p {
+    color: #506a85;
+    font-size: 16px;
+    padding-bottom: 40px;
+    padding: 15px 14px;
+}
+.left {
+    padding-left: 15px;
+}
+.right {
+    padding-right: 15px;
+}
+.work-with-us .work-in h2 {
+    color: #506a85;
+    padding-bottom: 15px;
+    font-weight: 600;
+    padding: 10px 28px;
+}
+.work-with-us .work-in p {
+    color: #506a85;
+    padding-bottom: 15px;
+    padding: 10px 35px;
+}
+
+
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  
+  
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  
+  
+}
